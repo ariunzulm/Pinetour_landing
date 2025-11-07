@@ -3,6 +3,12 @@
   <head>
     <title>Pinecone landing page</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="inter">
     <!-- HERO IMAGE -->
@@ -23,25 +29,33 @@
       <div class="center">
         <div class="text-container bebas-neue-regular">
           <h5 class="pure">PURE MAGIC</h5>
-          <h1>AWAITS!</h1>
-          <h5>2024</h5>
+          <h1 class="magic">AWAITS!</h1>
+          <h5 class="year hanuman">2024</h5>
         </div>
       </div>
     </div>
 
     <!-- LOCATION CONTAINER -->
     <div class="location-bg bebas-neue-regular">
-      <div class="card-1 card-bg-1">
-        <h1>TERKHIIN TSAGAAN LAKE</h1>
+      <div class="card-1 card-bg-1 bebas-neue-regular">
+        <div class="overlay">
+          <h1>TERKHIIN TSAGAAN LAKE</h1>
+        </div>
       </div>
       <div class="card-1 card-bg-2">
-        <h1>AMARBAYASGALANT MONASTERY</h1>
+        <div class="overlay">
+          <h1>AMARBAYASGALANT MONASTERY</h1>
+        </div>
       </div>
       <div class="card-1 card-bg-3">
-        <h1>KHUVSGUL LAKE</h1>
+        <div class="overlay">
+          <h1>KHUVSGUL LAKE</h1>
+        </div>
       </div>
       <div class="card-1 card-bg-4">
-        <h1>KHORGIIN TOGOO</h1>
+        <div class="overlay">
+          <h1>KHORGIIN TOGOO</h1>
+        </div>
       </div>
     </div>
 
@@ -89,7 +103,7 @@
             width="245px"
             height="245px"
           />
-          <div class="h1-position h1 h1-bg-1">
+          <div class="h1-position h1 h1-bg-3">
             <div class="pin">
               <h4>Khorgiin togoo</h4>
               <div class="icon">
@@ -97,7 +111,7 @@
                 <p>Arkhangai</p>
               </div>
             </div>
-            <p class="day">DAY 1</p>
+            <p class="day">DAY 3</p>
           </div>
           <img
             class="hidden3"
@@ -114,7 +128,7 @@
                 <p>Arkhangai</p>
               </div>
             </div>
-            <p class="day">DAY 1</p>
+            <p class="day">DAY 4</p>
           </div>
           <img
             class="hidden4"
@@ -123,7 +137,7 @@
             width="245px"
             height="245px"
           />
-          <div class="h1-position h1 h1-bg-4">
+          <div class="h1-position h1 h1-bg-5">
             <div class="pin">
               <h4>Huvsgul lake</h4>
               <div class="icon">
@@ -131,7 +145,7 @@
                 <p>Huvsgul</p>
               </div>
             </div>
-            <p class="day">DAY 1</p>
+            <p class="day">DAY 5</p>
           </div>
           <img
             class="hidden5"
@@ -141,7 +155,40 @@
             height="245px"
           />
         </div>
-        <div class="right"></div>
+        <div class="right">
+          <div class="map-1">
+            <img
+              src="./images/MapPin 1.png"
+              alt="map pin"
+              width="34px"
+              height="34px"
+            />
+          </div>
+          <div class="map-2 map-border">
+            <img
+              src="./images/MapPin 1.png"
+              alt="map pin"
+              width="34px"
+              height="34px"
+            />
+          </div>
+          <div class="map-3 map-border">
+            <img
+              src="./images/MapPin 1.png"
+              alt="map pin"
+              width="34px"
+              height="34px"
+            />
+          </div>
+          <div class="map-4 map-border">
+            <img
+              src="./images/MapPin 1.png"
+              alt="map pin"
+              width="34px"
+              height="34px"
+            />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -208,9 +255,7 @@
                 <p>1 meal per day (breakfast)</p>
               </div>
             </div>
-            <div class="select">
-              <h2>Select Package</h2>
-            </div>
+            <div class="select">Select Package</div>
           </div>
         </div>
         <div class="package">
@@ -227,7 +272,10 @@
           <div class="package-content">
             <div class="money">
               <h1>800$</h1>
-              <p>Balanced Adventure</p>
+              <div class="special-one">
+                <p>Balanced Adventure</p>
+                <p class="popular">Popular</p>
+              </div>
             </div>
             <div class="include">
               <h3>Includes:</h3>
@@ -268,9 +316,7 @@
                 <p>2 meals per day (breakfast and dinner)</p>
               </div>
             </div>
-            <div class="select">
-              <h2>Select Package</h2>
-            </div>
+            <div class="select">Select Package</div>
           </div>
         </div>
 
@@ -329,32 +375,32 @@
                 <p>All meal included (local cuisine)</p>
               </div>
             </div>
-            <div class="select">
-              <h2>Select Package</h2>
-            </div>
+            <div class="select">Select Package</div>
           </div>
         </div>
       </div>
     </div>
     <div class="last">
-      <div class="facebook">
-        <p class="mont">Facebook</p>
-        <img
-          src="./images/Vector.png"
-          alt="Facebook icon"
-          width="24px"
-          height="24px"
-        />
-      </div>
+      <div class="social-media">
+        <div class="facebook montserrat">
+          <p class="">Facebook</p>
+          <img
+            src="./images/Vector.png"
+            alt="Facebook icon"
+            width="24px"
+            height="24px"
+          />
+        </div>
 
-      <div class="facebook">
-        <p class="mont">Instagram</p>
-        <img
-          src="./images/Instagram Icon.svg"
-          alt="Instagram icon"
-          width="24px"
-          height="24px"
-        />
+        <div class="facebook">
+          <p class="montserrat">Instagram</p>
+          <img
+            src="./images/Instagram Icon.svg"
+            alt="Instagram icon"
+            width="24px"
+            height="24px"
+          />
+        </div>
       </div>
       <img
         src="./images/logo 1.png"
