@@ -282,6 +282,7 @@ h4 {
   height: 50px;
   border-radius: 100%;
   font-size: 14px;
+  font-weight: 300;
 }
 .hidden {
   display: none;
@@ -420,6 +421,7 @@ h2 {
   color: #303030;
   padding-top: 12px;
   padding-left: 24px;
+  font-weight: 600;
 }
 .special-one {
   display: flex;
